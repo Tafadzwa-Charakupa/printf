@@ -1,5 +1,4 @@
 #include "main.h"
-
 /****************** PRINT POINTER ******************/
 
 /**
@@ -52,7 +51,6 @@ int print_pointer(va_list types, char buffer[],
 	return (write_pointer(buffer, ind, length,
 		width, flags, padd, extra_c, padd_start));
 }
-
 /************************* PRINT NON PRINTABLE *************************/
 
 /**
