@@ -5,10 +5,10 @@
  * handle_write_char - Prints a string
  * @c: char types.
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags.
+ * @flags: it Calculates active flags.
  * @width: get width.
  * @precision: precision specifier
- * @size: Size specifier
+ * @size:  it is a Size specifier
  *
  * Return: Number of chars printed.
  */
@@ -141,7 +141,7 @@ int write_num(int ind, char buffer[],
  * write_unsgnd - Writes an unsigned number
  * @is_negative: Number indicating if the num is negative
  * @ind: Index at which the number starts in the buffer
- * @buffer: Array of chars
+ * @buffer: Array of characters
  * @flags: Flags specifiers
  * @width: Width specifier
  * @precision: Precision specifier
